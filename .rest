@@ -1,0 +1,17 @@
+GET https://api.themoviedb.org/3/genre/movie/list?api_key=ca0ebdcb8819434de8713d601d71ea25&language=en-US
+
+###
+
+GET https://api.themoviedb.org/3/trending/all/day?api_key=ca0ebdcb8819434de8713d601d71ea25
+
+###
+GET https://api.themoviedb.org/3/movie/latest?api_key=ca0ebdcb8819434de8713d601d71ea25&language=en-US
+
+###
+GET https://api.themoviedb.org/3/movie/top_rated?api_key=ca0ebdcb8819434de8713d601d71ea25&language=en-US&page=1
+
+###
+GET https://api.themoviedb.org/3/movie/372058/videos?api_key=ca0ebdcb8819434de8713d601d71ea25&language=en-US
+
+###
+GET https://api.themoviedb.org/3/movie/popular?api_key=ca0ebdcb8819434de8713d601d71ea25&language=en-US&page=1

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap");
+
+body {
+  font-family: "Segoe UI", "Roboto" sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: brown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #f2f2f2;
+}
+
+.button {
+  background-color: royalblue;
+  padding: 0.3rem;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 360px) {
+  .welcome .header {
+    font-size: 1.3rem;
+  }
+  .welcome .sub-header {
+    font-size: 1.1rem;
+    width: 15rem;
+  }
+}
